@@ -23,7 +23,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grayOp5-color);
 }
 
 .user-component__avatar--xl {
@@ -42,5 +42,17 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grayOp4-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-component--otheruser {
+  margin-bottom: 10px;
 }

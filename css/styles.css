@@ -7,12 +7,25 @@
 @import 'components/screenheader.css';
 @import 'components/nav-bar.css';
 @import 'components/user-component.css';
+@import 'components/badge.css';
 
 /* screens */
 @import 'screens/login.css';
 @import 'screens/friends.css';
+@import 'screens/find.css';
 
 body {
   color: #2e363e;
   font-family: 'Open Sans', sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.dots {
+  background-color: rgba(255, 99, 71, 0.8);
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
 }
