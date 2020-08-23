@@ -119,3 +119,70 @@
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
+
+.corona-specialPage {
+  width: 100vw;
+  height: 150px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border-top: var(--blackOp-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.corona-specialPage div {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.corona-specialPage div:first-child {
+  position: relative;
+}
+
+.corona-specialPage div:first-child input {
+  width: 87%;
+  height: 30px;
+  margin-top: 15px;
+  padding: 0 10px 0 20px;
+  border-radius: 10px;
+  border: 3px solid var(--yellow);
+  font-weight: bold;
+}
+
+.corona-specialPage div:first-child p {
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  font-size: 20px;
+  color: rgb(255, 211, 15);
+}
+
+.corona-specialPage div:first-child i {
+  position: absolute;
+  top: 25px;
+  right: 60px;
+}
+
+.corona-specialPage div:nth-child(2),
+.corona-specialPage div:last-child {
+  display: flex;
+  align-items: flex-start;
+}
+
+.corona-specialPage div:nth-child(2) p,
+.corona-specialPage div:last-child p {
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 10px;
+  height: 15px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.corona-specialPage div:nth-child(2) p:hover,
+.corona-specialPage div:last-child p:hover {
+  background: rgb(0, 192, 118);
+  color: white;
+}

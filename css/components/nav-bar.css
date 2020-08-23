@@ -22,8 +22,11 @@
   0% {
     transform: none;
   }
-  50% {
-    transform: translateX(-5px) rotateY(360deg);
+  10% {
+    transform: rotateY(180deg);
+  }
+  20% {
+    transform: none;
   }
   100% {
     transform: none;
@@ -34,7 +37,7 @@
   position: absolute;
   left: 20px;
   bottom: 15px;
-  animation: notificationAnimation 2s ease-in-out infinite;
+  animation: notificationAnimation 8s ease-in-out infinite;
 }
 
 .nav__notion {
@@ -48,13 +51,11 @@
     opacity: 0;
   }
   to {
-    transform: none;
     opacity: 1;
   }
 }
 
 .nav__btn {
-  transform: translateY(60px);
   opacity: 0;
   animation: appearBtnAnimation 1s ease-in-out forwards;
 }

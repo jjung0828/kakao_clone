@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 @import 'reset.css';
 @import 'variable.css';
 
@@ -11,6 +11,7 @@
 @import 'components/icon-row.css';
 @import 'components/alt-screen-header.css';
 @import 'components/only-mobile.css';
+@import 'components/ad.css';
 
 /* screens */
 @import 'screens/login.css';
@@ -19,10 +20,11 @@
 @import 'screens/more.css';
 @import 'screens/settings.css';
 @import 'screens/chatroom.css';
+@import 'screens/user-profile.css';
 
 body {
   color: #2e363e;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   -ms-overflow-style: none;
 }
 

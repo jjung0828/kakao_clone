@@ -9,18 +9,17 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <i class="fas fa-signal"></i>
+        <span>LG U+</span>
         <i class="fas fa-wifi"></i>
-        <!-- ToDo : Wifi Icon -->
       </div>
       <div class="status-bar__column">
-        <span>00:00</span>
+        <span class="time">00:00</span>
       </div>
       <div class="status-bar__column">
         <span>85%</span>
         <i class="fas fa-battery-three-quarters fa-lg"></i>
         <!-- Battery Icon -->
-        <i class="fas fa-bolt"></i>
         <!-- Lightning Icon -->
       </div>
     </div>
@@ -41,38 +40,92 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="img/1200px-Unofficial_JavaScript_logo_2.svg.png"
+            src="img/main-userphoto.jpg"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">jjung2</h4>
             <h6 class="user-component__subtitle">
-              +82 10-6234-8547<i
+              jjung828@naver.com<i
                 class="fas fa-exclamation-circle more-exclaimIcon"
               ></i>
             </h6>
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
+        <div class="more-thing">
+          <!-- <i class="far fa-comment-alt fa-2x"></i> -->
+          <div class="more-subs">MY</div>
+          <div class="more-subs">😀</div>
         </div>
       </div>
-      <div class="icon-row">
+      <div class="koaoa-pay">
+        <div class="kokoa-pay__current">
+          <i class="fas fa-comment"></i>
+          <p>pay 8,157원</p>
+        </div>
+        <div class="kokoa-pay__todo">
+          <p>송금</p>
+          <div></div>
+          <p>결제</p>
+          <div></div>
+          <p>자산</p>
+        </div>
+      </div>
+      <div id="icon-row1" class="icon-row">
         <div class="icon-row__icon">
-          <i class="far fa-calendar"></i>
-          <span>Calender</span>
+          <i class="far fa-envelope-open"></i>
+          <span>메일</span>
+          <span class="dots icon-dots"></span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-check"></i>
+          <span>캘린더</span>
         </div>
         <div class="icon-row__icon">
           <i class="fas fa-archive"></i>
-          <span>Talk Drive</span>
+          <span>서랍</span>
+          <span class="dots icon-dots"></span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-smile-beam"></i>
-          <span>Emoticons</span>
+          <i class="far fa-building"></i>
+          <span>메이커스</span>
+        </div>
+      </div>
+      <div id="icon-row2" class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-gift"></i>
+          <span>선물하기</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fas fa-brush"></i>
-          <span>Themes</span>
+          <i class="far fa-smile-wink"></i>
+          <span>이모티콘</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fab fa-linux"></i>
+          <span>프렌즈샵</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-store"></i>
+          <span>쇼핑하기</span>
+          <span class="dots icon-dots"></span>
+        </div>
+      </div>
+      <div id="icon-row3" class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-tshirt"></i>
+          <span>스타일</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-utensils"></i>
+          <span>주문하기</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-ticket-alt"></i>
+          <span>티켓</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-gamepad"></i>
+          <span>게임</span>
         </div>
       </div>
       <div class="more-suggestions">
@@ -122,12 +175,14 @@
     </nav>
 
     <div id="only-mobile">
-      <span>Your screen is to big</span>
+      <div>Your screen is to big!</div>
+      <div>size it at least width : 645px</div>
     </div>
 
     <script
       src="https://kit.fontawesome.com/dfc1bc349f.js"
       crossorigin="anonymous"
     ></script>
+    <script src="time.js"></script>
   </body>
 </html>

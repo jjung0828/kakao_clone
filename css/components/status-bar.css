@@ -14,7 +14,7 @@
 }
 
 .status-bar__column:first-child span {
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .status-bar__column:nth-child(2) {
@@ -26,6 +26,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.status-bar__column:last-child span {
+  font-size: 14px;
 }
 
 .status-bar__column i {

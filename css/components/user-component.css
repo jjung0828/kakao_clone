@@ -15,6 +15,16 @@
   margin-right: 20px;
 }
 
+.user-component__avatar i {
+  background: var(--yellow);
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .user-component__title {
   font-weight: 600;
   font-size: 20px;
@@ -27,8 +37,9 @@
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
 }
 
 .user-component__avatar--sm {

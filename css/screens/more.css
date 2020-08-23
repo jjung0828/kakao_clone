@@ -44,3 +44,68 @@
   font-size: 32px;
   color: white;
 }
+
+.more-thing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-subs {
+  width: 55px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--grayOp4-color);
+}
+
+.koaoa-pay {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.kokoa-pay__current {
+  width: 125px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  background: white;
+}
+
+.kokoa-pay__current i {
+  margin-right: 5px;
+}
+
+.kokoa-pay__todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.kokoa-pay__todo p {
+  margin: 0 10px;
+}
+
+.kokoa-pay__todo div {
+  width: 1px;
+  height: 15px;
+  background: rgb(107, 107, 107);
+}
+
+.icon-dots {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+}

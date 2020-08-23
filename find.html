@@ -9,18 +9,17 @@
   <body id="find-screen">
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <i class="fas fa-signal"></i>
+        <span>LG U+</span>
         <i class="fas fa-wifi"></i>
-        <!-- ToDo : Wifi Icon -->
       </div>
       <div class="status-bar__column">
-        <span>00:00</span>
+        <span class="time">00:00</span>
       </div>
       <div class="status-bar__column">
         <span>85%</span>
         <i class="fas fa-battery-three-quarters fa-lg"></i>
         <!-- Battery Icon -->
-        <i class="fas fa-bolt"></i>
         <!-- Lightning Icon -->
       </div>
     </div>
@@ -30,7 +29,8 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span style="position: relative;"
-          ><i class="fas fa-cog fa-lg"></i><span class="dots cog-dots"></span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+          <span class="dots cog-dots"></span
         ></span>
       </div>
     </header>
@@ -39,19 +39,19 @@
       <div class="icon-row">
         <div class="icon-row__icon">
           <i class="fas fa-qrcode"></i>
-          <span>QR Code</span>
+          <span>QR 코드</span>
         </div>
         <div class="icon-row__icon">
           <i class="far fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <span>연락처 추가</span>
         </div>
         <div class="icon-row__icon">
           <i class="fas fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <span>ID 입력하기</span>
         </div>
         <div class="icon-row__icon">
           <i class="far fa-envelope"></i>
-          <span>Invite</span>
+          <span>초대하기</span>
         </div>
       </div>
       <div class="recommended-friends">
@@ -70,7 +70,7 @@
             <h5 class="open-post__title">#BTS</h5>
             <h6 class="open-post__hashtags">#bts#army#friends</h6>
             <div class="open-post__members">
-              <img src="img/1200px-Unofficial_JavaScript_logo_2.svg.png" />
+              <img src="img/bts.jpg" />
               <span class="open-post__memeber-count">802 members</span>
               <div class="divider"></div>
               <span class="open-post__member-status">Active</span>
@@ -78,7 +78,7 @@
           </div>
           <div class="open-post__column">
             <div class="open-post__photo">
-              <img src="img/1200px-Unofficial_JavaScript_logo_2.svg.png" />
+              <img src="img/bts.jpg" />
               <div class="open-post__heart-count">
                 <i class="fas fa-heart fa-xs"></i><span>326</span>
               </div>
@@ -87,7 +87,24 @@
         </div>
       </div>
     </main>
-
+    <div class="corona-specialPage">
+      <div>
+        <p>#</p>
+        <input type="text" placeholder="검색어를 입력해주세요" />
+        <i class="fas fa-search"></i>
+      </div>
+      <div>
+        <p>#우리 톡에서 만나요</p>
+        <p>#처서</p>
+        <p>#코로나19 발생현황</p>
+        <p>#javascript란?</p>
+      </div>
+      <div>
+        <p>#love you nico</p>
+        <p>#had a fun time</p>
+        <p>#I will meet you in the next challenge~</p>
+      </div>
+    </div>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -116,12 +133,14 @@
     </nav>
 
     <div id="only-mobile">
-      <span>Your screen is to big</span>
+      <div>Your screen is to big!</div>
+      <div>size it at least width : 645px</div>
     </div>
 
     <script
       src="https://kit.fontawesome.com/dfc1bc349f.js"
       crossorigin="anonymous"
     ></script>
+    <script src="time.js"></script>
   </body>
 </html>

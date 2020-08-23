@@ -1,0 +1,18 @@
+.find-window__ad {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-window__ad p:first-child {
+  text-transform: uppercase;
+  color: #ff9500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
